@@ -1,15 +1,21 @@
-.head_block {
+body {
     display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color: #007765;
+    align-items: center;
+    flex-direction: column;
 }
 
-.content_block {
+.head {
+    display: flex;
+    justify-content: center;
+    background-color: #007765;
+    width: 100%;
+}
+
+.head_block {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: flex-start;
+    justify-content: space-between;
     width: 1219px;
     padding: 0 55px 0 55px;
 }
@@ -17,11 +23,11 @@
 .head_menu {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin: 29px 0 26px 0;
 }
 
-.head_menu p {
-    margin: 29px 0 26px 0;
-    padding: 0 12px 0 12px;
+.menu {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -29,36 +35,37 @@
     line-height: 28px;
     text-align: center;
     color: #FFFFFF;
-}
-
-.menu_border {
-    border-left: 2px solid white;
-    border-right: 2px solid white;
-}
-
-a {
     text-decoration: none;
+}
+
+.border {
+    margin: 0 10px 0 10px;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    height: 20px;
 }
 
 .logo {
     margin: 20px 0 19px 0;
 }
 
-
-
-.jumbotron_block {
+.jumbotron {
     display: flex;
     justify-content: center;
     background-image: url(/img/jumbotron.png);
     background-size: cover;
+    width: 100%;
 }
 
-.jumbotron_content {
+.jumbotron_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 1219px;
     padding: 0 55px 0 55px;
 }
 
-.jumbotron_content p {
+.jumbotron_block p {
     margin: 160px 0 160px 0;
     font-family: 'Roboto';
     font-style: normal;
@@ -69,26 +76,46 @@ a {
     color: #FFFFFF;
 }
 
-.problem_block {
+.problem {
     display: flex;
     justify-content: center;
-    margin: auto;
+    align-items: flex-start;
+    width: 100%;
+    background-color: #EEEEEE;
+}
+
+.problem_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     width: 1219px;
     padding: 0 55px 0 55px;
 }
 
-.problem_content {
+.problem_block h1 {
+    margin: 48px 0 16px 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+}
+
+.problem_block p {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 54px 0 54px;
+    align-self: flex-start;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    margin-bottom: 32px;
 }
 
-.problem_text {
-    width: 1110px;
-}
-
-.problem_content p {
-    width: 100%;
-    text-align: left;
+.problem_text-conteiner {
+    margin-bottom: 60px;
 }
