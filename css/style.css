@@ -9,6 +9,9 @@ body {
     justify-content: center;
     background-color: #007765;
     width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 3;
 }
 
 .head_block {
@@ -281,4 +284,9 @@ body {
     line-height: 21px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.yakor {
+    position: relative;
+    bottom: 87.6px;
 }
