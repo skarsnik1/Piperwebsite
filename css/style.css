@@ -144,3 +144,141 @@ body {
     color: #FFFFFF;
     text-align: center;
 }
+
+.ppc {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+.ppc_block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 1219px;
+    padding: 0 55px 0 55px;
+}
+
+.ppc_block h1 {
+    display: flex;
+    align-self: center;
+    margin: 48px 0 16px 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+}
+
+.ppc_block p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.ppc_block img {
+    float: left;
+    margin: 0 48px 0 0;
+}
+
+.ppc_content-conteiner {
+    width: 100%;
+    margin-bottom: 92px;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #EEEEEE;
+}
+
+.team_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1219px;
+    padding: 0 55px 0 55px;
+}
+
+.team_block h1 {
+    margin: 48px 0 32px 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+}
+
+.team_cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 1140px;
+}
+
+.team_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 15px;
+    width: 350px;
+    height: 283px;
+}
+
+.team_card-name {
+    margin-top: 12px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+}
+
+.team_carg-job_title {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #333333;
+}
+
+.footer_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1219px;
+    padding: 0 55px 0 55px;
+}
+
+.footer_block p {
+    margin: 48px 0 64px 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
