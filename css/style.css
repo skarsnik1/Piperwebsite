@@ -119,3 +119,28 @@ body {
 .problem_text-conteiner {
     margin-bottom: 60px;
 }
+
+.hero {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-image: url(/img/hero.png);
+    background-size: cover;
+}
+
+.hero_block {
+    margin: 128px 0 127px 0;
+    width: 1219px;
+    padding: 0 55px 0 55px;
+}
+
+.hero_block p {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    text-align: center;
+}
