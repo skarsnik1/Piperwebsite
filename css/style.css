@@ -39,6 +39,7 @@ body {
     text-align: center;
     color: #FFFFFF;
     text-decoration: none;
+    transition: color 0.1s ease-in;
 }
 
 .menu:hover {
@@ -46,7 +47,8 @@ body {
 }
 
 .menu:active {
-    color: yellow;
+    color: #FFFFFF;
+    transition: color 0.05s ease-in;
 }
 
 .border {
